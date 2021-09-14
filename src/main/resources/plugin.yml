@@ -1,0 +1,17 @@
+name: CountCrops
+version: ${project.version}
+main: zorua.countcrops.CountCrops
+api-version: 1.17
+commands:
+  startcount:
+    description: Start counting crops in the players predefined location
+    usage: /<command>
+    permission: countcrops.command.startcount
+  setpos1:
+    description: Set pos1 for the area to count crops
+    usage: /<command>
+    permission: countcrops.command.setpos1
+  setpos2:
+    description: Set pos2 for the area to count crops
+    usage: /<command>
+    permission: countcrops.command.setpos2
